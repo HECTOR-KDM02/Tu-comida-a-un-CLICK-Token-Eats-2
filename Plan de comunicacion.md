@@ -1,3 +1,4 @@
+
 # 📡 Plan de Comunicación del Equipo – **TokenEats**  
 ## Actividad: “Los Canales de la Constelación”  
 ### Unidad CASE — Comunicación y Colaboración Profesional  
@@ -92,13 +93,13 @@ A continuación se presenta el **formato acordado** para el informe de progreso 
 
 ### 2. Tareas Completadas
 
-- [Ejemplo] Instalación y configuración del entorno Soroban en WSL/Ubuntu.  
-- [Ejemplo] Definición del objetivo general y funcionalidad principal de TokenEats.  
-- [Ejemplo] Creación del repositorio GitHub y estructura básica del proyecto (`/contracts`, `/webapp`, `/docs`).  
-- [Ejemplo] Diseño inicial del flujo de compra: seleccionar producto → confirmar → pagar con Freighter.  
-- [Ejemplo] Borrador del contrato inteligente de **escrow** para pagos entre cliente y comercio.
+-  Instalación y configuración del entorno Soroban en WSL/Ubuntu.  
+-  Definición del objetivo general y funcionalidad principal de TokenEats.  
+-  Creación del repositorio GitHub y estructura básica del proyecto (`/contracts`, `/webapp`, `/docs`).  
+-  Diseño inicial del flujo de compra: seleccionar producto → confirmar → pagar con Freighter.  
+-  Borrador del contrato inteligente de **escrow** para pagos entre cliente y comercio.
 
-**Semáforo de tareas completadas:** 🟢 / 🟡 / 🔴  
+**Semáforo de tareas completadas:** 🟢 
 
 *(Elegir el color que mejor represente si las tareas críticas se cumplieron a tiempo.)*
 
@@ -106,37 +107,35 @@ A continuación se presenta el **formato acordado** para el informe de progreso 
 
 ### 3. Tareas en Proceso
 
-- [Ejemplo] Implementación del contrato Soroban (funciones de crear, liberar y reembolsar pagos).  
-- [Ejemplo] Desarrollo de la interfaz web para seleccionar productos y enviar la orden.  
-- [Ejemplo] Integración de la wallet Freighter para autenticar usuarios (SEP-10) y firmar transacciones.  
-- [Ejemplo] Pruebas funcionales básicas del flujo “crear pedido → pagar → ver estado”.  
-- [Ejemplo] Documentación de la guía de demo para el profesor.
+-  Implementación del contrato Soroban (funciones de crear, liberar y reembolsar pagos).  
+-  Desarrollo de la interfaz web para seleccionar productos y enviar la orden.  
+-  Integración de la wallet Freighter para autenticar usuarios (SEP-10) y firmar transacciones.  
+-  Pruebas funcionales básicas del flujo “crear pedido → pagar → ver estado”.  
+-  Documentación de la guía de demo para el profesor.
 
-**Semáforo de tareas en proceso:** 🟢 / 🟡 / 🔴  
-
-*(Si hay riesgo de no terminar algunas en la semana, usar 🟡 o 🔴.)*
+**Semáforo de tareas en proceso:** 🟢  
 
 ---
 
 ### 4. Obstáculos / Riesgos
 
-- [Ejemplo] Dudas en funciones avanzadas de Soroban (autorizaciones, almacenamiento, eventos).  
-- [Ejemplo] Errores intermitentes en Freighter al firmar algunas transacciones de prueba.  
-- [Ejemplo] Falta de tiempo para integrar pruebas E2E y accesibilidad en la misma semana.  
+-  Dudas en funciones avanzadas de Soroban (autorizaciones, almacenamiento, eventos).  
+-  Errores intermitentes en Freighter al firmar algunas transacciones de prueba.  
+-  Falta de tiempo para integrar pruebas E2E y accesibilidad en la misma semana.  
 
-**Semáforo de riesgos:** 🟢 / 🟡 / 🔴  
+**Semáforo de riesgos:** 🟢
 
 **Comentario / Apoyo requerido:**  
-> Ejemplo: “Se requiere apoyo del profesor para revisar el diseño del contrato de escrow y validar buenas prácticas.”
+>  “Se requiere apoyo del profesor para revisar el diseño del contrato de escrow y validar buenas prácticas.”
 
 ---
 
 ### 5. Actividades Planificadas para la Próxima Semana
 
-- [Ejemplo] Completar las pruebas unitarias del contrato Soroban (escrow y casos de timeout).  
-- [Ejemplo] Ajustar la interfaz de pago para hacer más claro el uso de la wallet.  
-- [Ejemplo] Realizar la primera simulación completa: crear pedido → pagar USDC → liberar/refund.  
-- [Ejemplo] Elaborar un video corto de demostración para subir como evidencia al repositorio GitHub.
+-  Completar las pruebas unitarias del contrato Soroban (escrow y casos de timeout).  
+-  Ajustar la interfaz de pago para hacer más claro el uso de la wallet.  
+-  Realizar la primera simulación completa: crear pedido → pagar USDC → liberar/refund.  
+-  Elaborar un video corto de demostración para subir como evidencia al repositorio GitHub.
 
 ---
 
@@ -148,4 +147,153 @@ A continuación se presenta el **formato acordado** para el informe de progreso 
 
 ---
 
+## 5.2 Informe Semanal de Avances 
+
+**Proyecto:** Token Eats – *Tu comida a un click*  
+**Semana:** del 17/11/2025 al 21/11/2025  
+**Equipo:**  
+- Oliverio Rojas Sánchez  
+- Josue Ángel García Aparicio  
+- Héctor Eduardo Santiago Bautista  
+
+---
+
+### 1. Objetivo de la semana
+
+Durante esta semana el objetivo principal fue **formalizar el inicio del proyecto Token Eats**, definiendo claramente el alcance, los roles del equipo, los objetivos generales y específicos, así como los recursos y herramientas que se utilizarán durante el desarrollo. Además, se buscó alinear a todos los integrantes en una misma visión del producto.
+
+---
+
+### 2. Actividades realizadas
+
+1. **Sesión de lluvia de ideas (brainstorming)**  
+   - Fecha: 05/09/2025  
+   - Se identificaron las principales necesidades del restaurante y de los usuarios finales.  
+   - Se definió el concepto central de la plataforma: pedidos y pagos en línea de forma rápida, segura y sencilla.  
+   - Se discutieron posibles módulos: gestión de menú, pedidos, pagos, notificaciones y panel administrativo.
+
+2. **Redacción del Acta de Constitución del Proyecto**  
+   - Fecha: 07/09/2025  
+   - Se estableció oficialmente el **título del proyecto**: *Token Eats – Tu comida a un click*.  
+   - Se definió el **objetivo general** y los **objetivos específicos** del proyecto.  
+   - Se delimitó el **alcance**: qué incluye y qué queda excluido en esta primera fase (por ejemplo, se aclaró que no se desarrollará un sistema propio de delivery ni un programa avanzado de fidelización en esta etapa).  
+
+3. **Asignación de roles y responsabilidades**  
+   - Se definieron los siguientes roles:  
+     - **Líder del proyecto y Backend Developer:** Oliverio Rojas Sánchez.  
+     - **Frontend/App Developer:** Josue Ángel García Aparicio.  
+     - **Analista de requerimientos y QA/Tester:** Héctor Eduardo Santiago Bautista.  
+   - Se describieron las funciones principales de cada rol para evitar ambigüedades y facilitar la coordinación.
+
+4. **Definición preliminar del stack tecnológico y recursos**  
+   - Se acordó utilizar:  
+     - **Frontend:** Vue.js y/o React Native según el alcance.  
+     - **Backend:** Spring Boot.  
+     - **Base de datos:** MySQL.  
+   - Se definió el uso de:  
+     - **GitHub** para control de versiones y documentación.  
+     - **GitHub Projects/Trello** como tablero Kanban para la gestión de tareas.  
+
+5. **Planeación inicial mediante hitos**  
+   - Se establecieron los hitos y fechas estimadas:  
+     - Sesión de lluvia de ideas.  
+     - Elaboración del acta de constitución.  
+     - Diseño de prototipo funcional (wireframes).  
+     - Desarrollo de versión beta.  
+     - Pruebas de calidad (QA).  
+     - Presentación final del proyecto.  
+
+---
+
+### 3. Avances respecto al cronograma
+
+- ✅ **Sesión de lluvia de ideas:** Cumplida en la fecha prevista (05/09/2025).  
+- ✅ **Redacción del Acta de Constitución:** Finalizada el 07/09/2025, de acuerdo al cronograma.  
+- ✅ **Definición de roles y stack tecnológico:** Completada en esta semana, permitiendo iniciar formalmente la planeación técnica.  
+- ⏳ **Diseño de prototipo funcional (wireframes):** Programado para la siguiente semana, aún no iniciado.  
+
+En general, los avances de esta semana se encuentran **alineados con el plan establecido** y se ha logrado una base sólida para continuar con el diseño de la solución.
+
+---
+
+### 4. Dificultades y riesgos identificados
+
+- **Disponibilidad de tiempo de los integrantes:**  
+  La coordinación de horarios entre los miembros del equipo puede afectar el ritmo de trabajo si no se mantiene una buena organización.
+
+- **Dependencia de la información del restaurante:**  
+  Se identificó que para avanzar en el diseño del menú y el flujo de pedidos será necesario contar con información actualizada por parte del restaurante (productos, precios, tiempos estimados, etc.). Cualquier retraso en esa información podría afectar el avance de las siguientes fases.
+
+- **Alcance futuro del sistema de fidelización:**  
+  Aunque en esta primera fase solo se “sientan las bases” para un sistema de recompensas digitales, se considera un punto a tomar en cuenta para no limitar el diseño actual.
+
+---
+
+### 5. Plan de trabajo para la próxima semana
+
+Para la siguiente semana se tiene planeado:
+
+1. **Diseño de prototipos (wireframes) de la aplicación**  
+   - Pantallas principales del cliente:  
+     - Inicio / Login  
+     - Menú de productos  
+     - Detalle de producto  
+     - Carrito de compra y pago  
+     - Seguimiento de pedido  
+   - Pantallas del panel administrativo:  
+     - Inicio de sesión del administrador  
+     - Gestión de menú  
+     - Visualización y gestión de pedidos  
+
+2. **Levantamiento más detallado de requerimientos**  
+   - Reunión (real o simulada) con el “cliente” (restaurante) para aclarar:  
+     - Flujo real del proceso de pedido.  
+     - Información necesaria para cada pantalla.  
+     - Restricciones o políticas del negocio (horarios, tipos de pago, etc.).  
+
+3. **Creación y organización del tablero Kanban**  
+   - Registrar tareas en GitHub Projects o Trello.  
+   - Asignar responsables y fechas tentativas por actividad.  
+
+4. **Estructura inicial del repositorio en GitHub**  
+   - Crear la estructura del proyecto (carpetas para backend, frontend y documentación).  
+   - Subir el README con la información base del proyecto.
+
+---
+
+### 6. Conclusiones
+
+La semana fue **productiva y clave para el arranque del proyecto**, ya que se logró:
+
+- Definir claramente la misión del proyecto Token Eats.  
+- Formalizar el acta de constitución con objetivos, alcance y recursos.  
+- Establecer roles, responsabilidades y herramientas de trabajo.  
+- Alinear expectativas entre los integrantes del equipo.
+
+Con estos elementos, el proyecto cuenta con una **base sólida de organización y planeación**, lo cual permitirá avanzar a la siguiente fase: el diseño de la interfaz y la definición detallada de requerimientos funcionales y no funcionales.
+
+---
+
 ## 6. Calendario de Reuniones
+
+A continuación se presenta un **calendario base de reuniones** para mantener una comunicación constante y ordenada durante el desarrollo de TokenEats.
+
+### 6.1 Reuniones Periódicas
+
+| Tipo de reunión                  | Objetivo principal                                          | Frecuencia              | Día / Hora aproximada      | Modalidad        | Participantes principales                      |
+|----------------------------------|-------------------------------------------------------------|-------------------------|----------------------------|------------------|-----------------------------------------------|
+| Reunión de planeación semanal    | Definir tareas de la semana, asignar responsables.         | 1 vez por semana        | Lunes, 18:00–19:00         | Meet / Presencial| Todo el equipo                                |
+| Reunión de seguimiento intermedio| Revisar avances, bloquear problemas, ajustar prioridades.  | 1 vez por semana        | Jueves, 18:00–18:30        | Meet             | Todo el equipo                                |
+| Reunión de retrospectiva         | Analizar qué salió bien/mal y qué mejorar.                 | Cada 2 semanas          | Viernes, 18:00–19:00       | Meet / Presencial| Todo el equipo                                |
+| Reunión con el profesor (cliente)| Presentar avances formales, resolver dudas y recibir feedback.| Según agenda de la materia | Según indicaciones del profesor | Meet / Aula | Líder de proyecto + quien el profesor indique |
+
+### 6.2 Reglas para las Reuniones
+
+- La **convocatoria** se realizará por el grupo de **WhatsApp** con al menos 24 horas de anticipación.  
+- El **Líder de Proyecto** levantará una pequeña minuta (acuerdos y tareas) y la guardará en el repositorio (`/docs/minutas/`).  
+- Cualquier reunión extraordinaria (por problemas urgentes o cambios de alcance) deberá:
+  - Ser notificada en WhatsApp.  
+  - Dejar registro del acuerdo en GitHub (Issue o documento).  
+
+---
+```
